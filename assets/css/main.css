@@ -91,7 +91,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #7f888f;
+  color: #595f63;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -112,7 +112,7 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #47D3E5;
+  color: #0f5c66;
   text-decoration: none; }
   a:hover {
     border-bottom-color: #47D3E5;
