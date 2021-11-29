@@ -27,7 +27,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.html" class="logo"><strong>The Official Blog of Erica McCormick</strong></a>
+									<a href="https://ericamccormick.com/" class="logo"><strong>Erica McCormick</strong></a>
 									<ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
@@ -144,7 +144,38 @@
 							<header id="header">
 								<a href="index.html" class="logo"></a>
 							</header> 
+		
 	
+							<!-- NEW POST -->
+							<section id = "et_extraction">
+									<header class="main">
+										<h1>How to extract timeseries with GEE</h1>
+									</header>
+
+									<p><a href = "https://earthengine.google.com"> Google Earth Engine </a> hosts an unbelievable amount of data, stored as 'assets,' which can take the form of Images (essentially a single raster), ImageCollections (a stack of rasters representing multiple timesteps, most typically), or Features (vectors). However, because every asset is likely formatted in a slightly unique way, extracting GEE data for a point, watershed, or other geometry can sometimes be challenging. Here I will walk through two ways to extract various evapotranspiration datasetes:</p>
+								
+									<ol>
+										<li>Using the <a href = "https://geemap.org/">geemap</a> package, with excess code used to format extracted data into neat <a href = "https://pandas.pydata.org/docs/index.html">Pandas</a> dataframe format written out in full</li>
+										<li>Using a "manual" method pioneered by <a href="https://www.daviddralle.com/">David Dralle</a> of the USDA Forest Service and <a href="https://jessehahm.github.io/">Jesse Hahm</a> of Simon Fraser University</li>
+									</ol>
+									<p>For a more concise application of the geemap method, including the creation of asset-specific extraction functions, see my other tutorial on <a href = "index.html#watershed">watershed analyses using GEE</a>.</p>
+								
+									<p>For a basic introduction to GEE, see the tutorial <a href = "index.html#gee">here</a>!</p>
+								
+									<script src="https://gist.github.com/erica-mccormick/6b5a0073b3c91c6024781efba91f0831.js"></script>
+
+								
+									<ul class="actions">
+										<li><a href="#datapane" class="button big">Next Article</a></li>
+										<li><a href="index.html" class="button big">Back to Home</a></li>
+									</ul>
+							</section>
+							
+							<header id="header">
+								<a href="index.html" class="logo"></a>
+							</header> 
+
+		
 							<!-- NEW POST 
 							<section id = "research_tune">
 									<header class="main">
